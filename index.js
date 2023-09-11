@@ -49,12 +49,12 @@ const questions = [
   {
     type: 'input',
     name: 'usage',
-    message: 'Explain how users can interact with your project.',
+    message: 'Provide instructions and examples on how to use your application/project.',
     validate: usageInput => {
       if (usageInput) {
         return true;
       } else {
-          console.log('Please provide examples of how to use your project');
+          console.log('Please provide examples of how to use your project, you can include a screenshot.');
           return false;
       }
     }

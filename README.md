@@ -13,6 +13,10 @@
    * [Contribution](#contribution)
    * [Tests](#tests)
    * [Questions](#questions)
+
+
+## Visuals
+[![Screenshot](assets/images/Screenshot.jpg)](https://drive.google.com/file/d/1PnytWjeMmWFNHTnvSTM0GulWMOn8BpNj/view)  
    
  ## Installation
  To install the given application/project:
@@ -35,8 +39,6 @@
  * Next, the command-line application will prompt for user input such as `project title`, `installation`, `usage`, `license`, `contribution`, `tests`, and `questions`. 
 
  * Finally, a high-quality README.md will be generated in the output folder/file. 
-
- Please see example video and screenshot below:
 
 
  

@@ -2,10 +2,10 @@
  
    [![License](https://img.shields.io/badge/License-MIT-turquoise.svg)](https://opensource.org/licenses/MIT) 
  
- ## Description
+ ## ⚓ Description
    The README generator creates a professional README for a new project by using a command-line application that accepts user input such as node.js and npm. The user is prompted with questions, requesting information/input to use in the output of the generated README file. 
  
- ## Table of Contents
+ ## 📜 Table of Contents
    * [Description](#description)  
    * [Installation](#installation)
    * [Usage](#usage)
@@ -15,11 +15,13 @@
    * [Questions](#questions)
 
 
-## Visuals
+## 📽️ Visuals
+  #### Click on the image below to reveal a video demonstration:
+
 [![Screenshot](assets/images/Screenshot.jpg)](https://drive.google.com/file/d/1PnytWjeMmWFNHTnvSTM0GulWMOn8BpNj/view)  
    
- ## Installation
- To install the given application/project:
+ ## 📖 Installation
+ #### To install the given application/project:
  
  * First, clone the git repository from [GitHub](https://github.com/kwaters3/README-Generator)
 
@@ -31,8 +33,8 @@
  * Finally, the user will be prompted with several questions/input data for their README file. 
 
  
- ## Usage
- How to use the application/project:
+ ## 📝 Usage
+ #### How to use the application/project:
 
  * First, install the given application/project
 
@@ -42,16 +44,16 @@
 
 
  
- ## License
+ ## ⚜️ License
    This project is covered under the following license: [![License](https://img.shields.io/badge/License-MIT-turquoise.svg)](https://opensource.org/licenses/MIT)
  
- ## Contribution
+ ## ✂️ Contribution
    If you would like to contribute, please clone the repository and create a new branch to add/update content.
  
- ## Tests
+ ## 🔬 Tests
    The project can be tested by running it in the command line using node.js
  
- ## Questions
+ ## 🔗 Questions
    If you have any questions, please email me at: knickler3@gmail.com <br/>
    My GitHub page is: [kwaters3](https://github.com/kwaters3)
    

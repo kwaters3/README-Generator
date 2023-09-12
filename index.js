@@ -127,7 +127,7 @@ const questions = [
 
 // Function to generate READme file
   function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, (err) => err 
+    fs.writeFile(fileName, generateMarkdown(data), (err) => err 
       ? console.error(err) 
       : console.log('Your README.md file is now available in the output folder.')
       )}
@@ -138,12 +138,32 @@ const questions = [
 function init() {
   inquirer
     .prompt(questions)
-    .then((answers) => {
-      const newFile = generateMarkdown(answers);
-
-      writeToFile('./output/README.md', newFile);
+    .then((data) => {
+      writeToFile('./output/README.md', data);
     })
 }
+
+
+
+// // Function to generate READme file
+//   function writeToFile(fileName, data) {
+//     fs.writeFile(fileName, data, (err) => err 
+//       ? console.error(err) 
+//       : console.log('Your README.md file is now available in the output folder.')
+//       )}
+
+
+
+// // Function to initialize app
+// function init() {
+//   inquirer
+//     .prompt(questions)
+//     .then((answers) => {
+//       const newFile = generateMarkdown(answers);
+
+//       writeToFile('./output/README.md', newFile);
+//     })
+// }
 
 
 // Function call to initialize app

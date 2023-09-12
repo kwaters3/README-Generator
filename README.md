@@ -1,9 +1,9 @@
-# README generator
+# README Generator
  
    [![License](https://img.shields.io/badge/License-MIT-turquoise.svg)](https://opensource.org/licenses/MIT) 
  
  ## Description
-   The README generator creates a professional README for a new project by using node.js and npm. The user is prompted with questions, requesting information /input to use in the output of the generated README file. 
+   The README generator creates a professional README for a new project by using a command-line application that accepts user input such as node.js and npm. The user is prompted with questions, requesting information/input to use in the output of the generated README file. 
  
  ## Table of Contents
    * [Description](#description)  
@@ -15,10 +15,30 @@
    * [Questions](#questions)
    
  ## Installation
-   The user must first clone the git repository from  Git Hub , then once the repo is cloned, the application will be invoked by using the following commnd: 'node index.js'. 
+ To install the given application/project:
+ 
+ * First, clone the git repository from [GitHub](https://github.com/kwaters3/README-Generator)
+
+ * Next, install the required packages by using the following command: `npm install`
+
+
+ * Then, invoke the application by using the following command: `node index.js` 
+
+ * Finally, the user will be prompted with several questions/input data for their README file. 
+
  
  ## Usage
-   The instructions on how to use the README generator are provided in the video below. 
+ How to use the application/project:
+
+ * First, install the given application/project
+
+ * Next, the command-line application will prompt for user input such as `project title`, `installation`, `usage`, `license`, `contribution`, `tests`, and `questions`. 
+
+ * Finally, a high-quality README.md will be generated in the output folder/file. 
+
+ Please see example video and screenshot below:
+
+
  
  ## License
    This project is covered under the following license: [![License](https://img.shields.io/badge/License-MIT-turquoise.svg)](https://opensource.org/licenses/MIT)

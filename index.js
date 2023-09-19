@@ -139,7 +139,7 @@ function init() {
   inquirer
     .prompt(questions)
     .then((data) => {
-      writeToFile('./output/README.md', data);
+      writeToFile('./output/newREADME.md', data);
     })
 }
 

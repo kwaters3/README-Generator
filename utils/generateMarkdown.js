@@ -47,30 +47,40 @@ function renderLicenseBadge(license) {
  
  
  
- 
+
  
  // TODO: Create a function to generate markdown for README
  function generateMarkdown(data) {
    return `# ${data.title}
  
    ${renderLicenseBadge(data.license)} 
- 
+
  ## Description
    ${data.description}
  
  ## Table of Contents
-   * [Description](#description)  
+   * [Description](#description)
+   * [Visuals](#visuals)  
    * [Installation](#installation)
    * [Usage](#usage)
    * [License](#license)
    * [Contribution](#contribution)
    * [Tests](#tests)
    * [Questions](#questions)
-   
+ 
+ 
+ ## Visuals
+ #### Click on the image below to reveal a video demonstration:
+
+ [![Screenshot] (*/link for image or screenshot*/)](*/website or deployed website link */)
+ 
+ 
  ## Installation
+ #### To install the given application/project:
    ${data.installation}
  
  ## Usage
+ #### How to use the application/project:
    ${data.usage}
  
  ## License
